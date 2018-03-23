@@ -1,2 +1,2 @@
-# nitcalendar
-Chrome extension project.
+# Neat Week
+Chrome extension project in development.
