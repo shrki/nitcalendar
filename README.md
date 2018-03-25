@@ -1,2 +1,2 @@
 # Neat Week
-Chrome extension project in development.
+Just a simple weekly planner built with HTML / CSS / JQuery. 
