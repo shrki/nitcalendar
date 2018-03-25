@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Neat Week</title>
+        <meta name="description" content="Minimal and lightweight weekly planner.">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="function.js"></script>
+    </head>
+    <body>
+        <!-- Start Weekly View. Ao clicar no link, deve aparecer o campo para inserir nova tarefa. Recuperar value dos cookies que ficam salvos. -->
+        <section id="container">
+            <h1>Current Week</h1>
+        <div class="weekday">
+            <h2>Monday</h2>
+            <div class="box">
+            <span onclick="newTask()" class="addbutton">+ Add new task</span>
+                <ul>
+                <li class="task">Water my plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="weekday">
+            <h2>Tuesday</h2>
+            <div class="box">
+            <ul>
+                <li>+ Add new task</li>
+                <li><input type="checkbox" checked="checked"> Water plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="weekday">
+            <h2>Wednesday</h2>
+            <div class="box">
+            <ul>
+                <li>+ Add new task</li>
+                <li><input type="checkbox" checked="checked"> Water plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="weekday">
+            <h2>Thursday</h2>
+            <div class="box">
+            <ul>
+                <li>+ Add new task</li>
+                <li><input type="checkbox" checked="checked"> Water plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="weekday">
+            <h2>Friday</h2>
+            <div class="box">
+            <ul>
+                <li>+ Add new task</li>
+                <li><input type="checkbox" checked="checked"> Water plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="weekday">
+            <h2>On Weekend</h2>
+            <div class="box">
+            <ul>
+                <li>+ Add new task</li>
+                <li><input type="checkbox" checked="checked"> Water plants</li>
+            </ul>
+            </div>
+            </div>
+            
+            <span class="dismiss">Clean all tasks</span>
+            
+            <span class="discl">2018 (c) Neat Week. Version 1.0.</span>
+        </section>
+        <!-- End Weekly View -->
+    </body>
+</html
