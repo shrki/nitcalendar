@@ -27,7 +27,7 @@ body {
 }
 
 #container h1 {
-    background: url(https://shrki.github.io/neatweek/master/icon64.png)no-repeat left center;
+    background: url('/icon64.png')no-repeat left center;
     text-align: left;
     font-weight: normal;
     font-size: 30px;
